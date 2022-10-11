@@ -13,18 +13,17 @@
     <!-- HEADER -->
     <header>
         <div class="container">
-            <div class="titulo-img">
-                <!--AQUI FICA A IMAGEM  -->
-                    <h1>OnLux</h1>
-            </div>
-            <div class="navegacao">
-                <ul>
-                    <li><a href="onLux.html">Inicial</a></li>
-                    <li><a href="">Sobre Nós</a></li>
-                    <li><a href="login.html">Login</a></li>
-                    <li><a href="cadastro.html">Cadastre-se</a></li>
-                </ul>
-            </div>
+          <div class="titulo-img">
+            <h1><a href="onLux.html">Onlux</a></h1>
+          </div>
+          <div class="navegacao">
+            <ul>
+                <li><a href="onLux.html">Inicial</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li class="agora"><a href="login.html">Login</a></li>
+                <li><a href="cadastro.html">Cadastre-se</a></li>
+            </ul>
+          </div>
         </div>
     </header>
     <div class="grafico">
@@ -58,6 +57,7 @@
             <canvas id="chave"></canvas>
         </section>
         </div>
+        <style color: ></style>
     </div>
 
     <script>
@@ -71,10 +71,10 @@
                 type: 'line',
                 data: {
                     datasets: [{
-                        label: 'Umidade',
+                        label:'Umidade',
                         type: 'line',
-                        borderColor: ['rgb(255, 255, 255)'],
-                        backgroundColor: ['rgb(0, 0, 255']
+                        borderColor: ['rgb(0, 0, 255)'],
+                        backgroundColor: ['rgb(0, 0, 255'],
                     }]
                 },
                 options: {
@@ -113,7 +113,7 @@
                     datasets: [{
                         label: "Temperatura",
                         type: 'line',
-                        borderColor: ['rgb(255, 255, 255)'],
+                        borderColor: ['rgb(255, 0, 119)'],
                         backgroundColor: ['rgb(255, 0, 119']
                     }]
                 },
@@ -153,7 +153,7 @@
                     datasets: [{
                         label: 'Luminosidade',
                         type: 'line',
-                        borderColor: ['rgb(255, 255, 255)'],
+                        borderColor: ['rgb(102, 255, 0)'],
                         backgroundColor: ['rgb(102, 255, 0)']
                     }]
                 },
@@ -193,8 +193,8 @@
                     datasets: [{
                         label: 'Temperatura',
                         type: 'line',
-                        borderColor: ['rgb(255, 255, 255)'],
-                        backgroundColor: ['rgb(255, 217, 0);']
+                        borderColor: ['rgb(255, 217, 0)'],
+                        backgroundColor: ['rgb(255, 217, 0)']
                     }]
                 },
                 options: {
@@ -233,8 +233,8 @@
                     datasets: [{
                         label: 'Chave',
                         type: 'line',
-                        borderColor: ['rgb(255, 255, 255)'],
-                        backgroundColor: ['rgb(0, 255, 255);']
+                        borderColor: ['rgb(0, 255, 255)'],
+                        backgroundColor: ['rgb(0, 255, 255)']
                     }]
                 },
                 options: {
